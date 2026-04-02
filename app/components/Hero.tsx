@@ -7,7 +7,8 @@ export default function Hero() {
             <section id="hero" className="flex relative min-h-screen justify-center items-center gap-10 px-4 sm:px-10 md:px-20 overflow-x-hidden bg-white/0 dark:bg-neutral-900/50">
             
             <div className="relative w-full py-16 sm:py-24 backdrop-blur-xl bg-white-100/30 dark:bg-neutral-800/10 border border-white/10 dark:border-white/10 rounded-2xl shadow-xl px-6 sm:p-8 grid grid-cols-1 sm:grid-cols-2">
-                <div className="absolute hidden md:block z-10 bottom-0 right-10">
+
+                    <div className="absolute hidden md:block z-10 bottom-0 right-10">
                     <img
                         src="/ProfileAdobe.png"
                         alt="profile"

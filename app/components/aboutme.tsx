@@ -43,17 +43,17 @@ export default function AboutMe() {
 
                         <div className="grid sm:grid-cols-3 gap-4 text-gray-900 dark:text-gray-200">
                             <div className="hover:-translate-y-1 p-4 rounded-xl bg-white dark:bg-zinc-800 shadow-sm hover:shadow-md transition">
-                                <p className="font-semibold">💻 Frontend</p>
+                                    <p className="font-semibold"> Frontend </p>
                                 <p className="text-sm text-gray-500 dark:text-gray-400">Responsive Website</p>
                             </div>
 
                             <div className="hover:-translate-y-1 p-4 rounded-xl bg-white dark:bg-zinc-800 shadow-sm hover:shadow-md transition">
-                                <p className="font-semibold"> 👨‍👩‍👧‍👦 Interpersonal </p>
+                                    <p className="font-semibold"> Interpersonal </p>
                                 <p className="text-sm text-gray-500 dark:text-gray-400">Clear & effective teamwork</p>
                             </div>
 
                             <div className="hover:-translate-y-1 p-4 rounded-xl bg-white dark:bg-zinc-800 shadow-sm hover:shadow-md transition">
-                                <p className="font-semibold">🚀 Problem Solving</p>
+                                    <p className="font-semibold"> Problem Solving </p>
                                 <p className="text-sm text-gray-500 dark:text-gray-400">ideas into solutions</p>
                             </div>
                         </div>
