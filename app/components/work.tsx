@@ -253,7 +253,7 @@ export default function Work() {
                                     rel="noopener noreferrer"
                                     className="bg-gray-800 dark:bg-gray-700 px-3 py-2 rounded-lg text-sm sm:text-base text-white text-center mt-5 inline-block w-full text-center"
                                 >
-                                    🔎 View Project
+                                    View Project
                                 </a>
                             </div>
 

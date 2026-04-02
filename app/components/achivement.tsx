@@ -263,7 +263,7 @@ export default function Achive() {
                                     </div>
                                     <a href={selectedMedal.image} target="_blank" rel="noopener noreferrer" className="bg-indigo-800/90 rounded-b-lg text-gray-200 justify-center text-center font-semibold py-2 mt-4 hover:bg-indigo-600 dark:hover:bg-orange-600 dark:bg-orange-700 transition">
                                         <h3 className="font-medium text-sm sm:text-lg">
-                                            View Certificate 🔎
+                                            View Certificate 
                                         </h3>
                                     </a>
                                 </div>
