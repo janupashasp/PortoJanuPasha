@@ -25,7 +25,7 @@ export default function Contact() {
                 </div>
 
                 <p className="w-full text-gray-100 text-sm md:text-base font-normal leading-relaxed ">
-                    🚀 Let's build something great together.
+                    Let's build something great together.
                     If you have an idea, a project, or just want to say hi, don't hesitate to reach out!
                 </p>
 

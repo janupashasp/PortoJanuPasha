@@ -28,7 +28,7 @@ const experience: Experience[] = [
             "Berkontribusi dalam pelaksanaan rapat kerja tahunan organisasi.",
         ],
         image: "/hipmi1.jpeg",
-        gallery: ["/hipmi/i1.jpg", "/hipmi/i2.jpg", "/hipmi/i3.jpg", "/hipmi/i4.jpg", "/hipmi/i5.jpg", "/hipmi/i6.jpg"],
+        gallery: ["/HIPMI/i1.jpg", "/HIPMI/i2.jpg", "/HIPMI/i3.jpg", "/HIPMI/i4.jpg", "/HIPMI/i5.jpg", "/HIPMI/i6.jpg"],
     },
     {
         id: 2,
