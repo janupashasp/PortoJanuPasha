@@ -46,16 +46,16 @@ const projects: Project[] = [
     },
     {
         id: 3,
-        title: "Coming Soon",
+        title: "OTI Academy",
         description: "Bagian dari sebuah project penting OmahTI",
         year: "2026",
         category: "Software",
         role: "Frontend Developer",
-        status: "Coming Soon",
-        image: "soon.jpeg",
+        status: "Currently Working",
+        image: "",      
         tech: ["tsx", "next.js", "tailwind"],
-        info: "SOON",
-        view: "SOON"
+        info: "OTI Academy 2026 adalah program bootcamp yang akan mengakselerasi pengetahuan dan skill para peserta di bidang IT dalam timeframe singkat, sebagai gerbang awal peserta di bidang IT.Program ini mengutamakan kualitas praktek, bukan hanya pemahaman teori.Acara ini ditargetkan kepada para siswa sekolah menengah, Mahasiswa, maupun Umum yang tertarik dengan IT, baik yang masih pemula, ataupun intermediate.Dengan target 1.000 pendaftar dan 95% peserta aktif tanpa bolos, OmahTI Academy 2026 diharapkan bisa menjadi salah satu program bootcamp yang paling berkualitas yang membuat para peserta puas dengan hasilnya, serta dapat menjual nama Ilmu Komputer UGM kepada lingkup nasional yang lebih luas.",
+        view: "null",
 
     },
 ];
@@ -218,7 +218,7 @@ export default function Work() {
                                             <p className="text-gray-900 dark:text-gray-300">Status:</p>
                                             <p className={`font-semibold ${selectedProject.status === "Completed"
                                                 ? "text-green-500"
-                                                : selectedProject.status === "Coming Soon"
+                                            : selectedProject.status === "currently working"
                                                     ? "text-yellow-500"
                                                     : "text-gray-500"
                                                 }`}>

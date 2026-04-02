@@ -28,7 +28,7 @@ const experience: Experience[] = [
             "Berkontribusi dalam pelaksanaan rapat kerja tahunan organisasi.",
         ],
         image: "/hipmi1.jpeg",
-        gallery: ["/hipmi/i1.jpg", "/hipmi/i2.jpg", "/hipmi/i3.jpg", "/hipmi/i4.JPG", "/hipmi/i5.JPG", "/hipmi/i6.jpg"],
+        gallery: ["/hipmi/i1.jpg", "/hipmi/i2.jpg", "/hipmi/i3.jpg", "/hipmi/i4.jpg", "/hipmi/i5.jpg", "/hipmi/i6.jpg"],
     },
     {
         id: 2,
@@ -43,7 +43,7 @@ const experience: Experience[] = [
             "Mencatat progres proyek secara terstruktur sebagai bentuk kontrol dan evaluasi kinerja tim.",
         ],
         image: "/omahTI.png",
-        gallery: ["/OMAHTI/o1.jpg", "/OMAHTI/o2.jpg", "/OMAHTI/o3.jpg", "/OMAHTI/o4.JPG", "/OMAHTI/o5.JPG", "/OMAHTI/o6.jpg"]
+        gallery: ["/OMAHTI/o1.jpg", "/OMAHTI/o2.jpg", "/OMAHTI/o3.jpg", "/OMAHTI/o4.jpg", "/OMAHTI/o5.jpg", "/OMAHTI/o6.jpg"]
 
     },
     {
@@ -58,7 +58,7 @@ const experience: Experience[] = [
             "Menjalin relasi dengan mitra dan pihak eksternal guna mendukung keberhasilan program kerja.",
         ],
         image: "/bemmipa.png",
-        gallery: ["HUMAS/h1.jpg", "/HUMAS/h2.jpg", "/HUMAS/h3.jpg", "/HUMAS/h4.JPG", "/HUMAS/h5.JPG", "/HUMAS/h6.jpg"]
+        gallery: ["/HUMAS/h1.jpg", "/HUMAS/h2.jpg", "/HUMAS/h3.jpg", "/HUMAS/h4.jpg", "/HUMAS/h5.JPG", "/HUMAS/h6.jpg"]
 
     },
     {
@@ -73,7 +73,7 @@ const experience: Experience[] = [
             "Memastikan kesiapan teknis dan operasional selama acara berlangsung.",
         ],
         image: "/malpres.png",
-        gallery: ["MALPRES/p1.JPG", "/MALPRES/p2.jpg", "/MALPRES/p3.heic", "/MALPRES/p4.HEIC", "/MALPRES/p5.HEIC", "/MALPRES/p6.jpg", "/MALPRES/p7.jpg", "/MALPRES/p8.jpg", "/MALPRES/p9.jpg", "/MALPRES/p10.jpg"],
+        gallery: ["MALPRES/p1.jpg", "/MALPRES/p2.jpg", "/MALPRES/p3.heic", "/MALPRES/p4.HEIC", "/MALPRES/p5.HEIC", "/MALPRES/p6.jpg", "/MALPRES/p7.jpg", "/MALPRES/p8.jpg", "/MALPRES/p9.jpg", "/MALPRES/p10.jpg"],
 
     },
 ];
