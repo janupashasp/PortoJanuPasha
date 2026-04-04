@@ -46,7 +46,7 @@ export default function Skills() {
 
                     <div className="flex flex-col items-center gap-3 w-[70px] sm:w-[90px]">
                         <div className="w-10 h-10 sm:w-16 sm:h-16 flex items-center justify-center">
-                            <img src="/github.png" alt="Github" className="dark:invert"></img>
+                            <img src="/github.webp" alt="Github" className="dark:invert"></img>
                         </div>
                         <div className="justify-start text-gray-600 text-lg dark:text-gray-400 font-normal  leading-7">Github</div>
                     </div>

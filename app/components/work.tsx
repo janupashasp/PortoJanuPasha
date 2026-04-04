@@ -1,6 +1,10 @@
 "use client"
 import { BlurFade } from "@/components/ui/blur-fade"
 import { useState } from "react"
+import { Info } from "lucide-react"
+import { Calendar } from "lucide-react"
+import { Cpu } from "lucide-react"
+
 
 type Project = {
     id: number
@@ -25,7 +29,7 @@ const projects: Project[] = [
         category: "Software",
         role: "Frontend Developer",
         status: "Completed",
-        image: "/pashacom.png",
+        image: "/pashacom.webp",
         tech: ["Next.js", "Tailwind", "Typescript"],
         info: "Website Portofolio Janu Pasha adalah sebuah platform personal yang dirancang untuk menampilkan profil, pengalaman, dan proyek-proyek yang telah dikerjakan. Website ini dibangun dengan fokus pada performa, responsivitas, dan pengalaman pengguna yang optimal. Dalam pengembangannya, digunakan teknologi modern seperti Next.js dan Tailwind CSS untuk memastikan tampilan yang cepat, ringan, dan konsisten di berbagai perangkat.Selain itu, implementasi TypeScript membantu menjaga kualitas kode agar lebih terstruktur dan mudah dikembangkan di masa depan. Website ini tidak hanya berfungsi sebagai media personal branding, tetapi juga sebagai representasi kemampuan dalam membangun antarmuka yang modern, interaktif, dan scalable.",
         view: "#hero",
@@ -38,7 +42,7 @@ const projects: Project[] = [
         category: "Software",
         role: "Frontend Developer",
         status: "Completed",
-        image: "/omahfe.png",
+        image: "/omahfe.webp",
         tech: ["HTML", "CSS", "Javascript"],
         info: "Proyek OmahTI Open Recruitment Assignment merupakan tugas seleksi yang dirancang untuk menguji kemampuan teknis dan pemahaman dalam pengembangan antarmuka web modern.Dalam proyek ini, saya mengimplementasikan tampilan website menggunakan HTML, CSS, dan JavaScript dengan fokus pada struktur yang rapi",
         view: "https://github.com/janupashasp/Oprec_FE_OTI_Pasha"
@@ -47,12 +51,12 @@ const projects: Project[] = [
     {
         id: 3,
         title: "OTI Academy",
-        description: "Bagian dari sebuah project penting OmahTI",
+        description: "SubKoordinator OTI Academy 2026, sebuah program bootcamp yang akan mengakselerasi pengetahuan dan skill para peserta di bidang IT.",
         year: "2026",
         category: "Software",
         role: "Frontend Developer",
         status: "Currently Working",
-        image: "",      
+        image: "comingsoon.webp",      
         tech: ["tsx", "next.js", "tailwind"],
         info: "OTI Academy 2026 adalah program bootcamp yang akan mengakselerasi pengetahuan dan skill para peserta di bidang IT dalam timeframe singkat, sebagai gerbang awal peserta di bidang IT.Program ini mengutamakan kualitas praktek, bukan hanya pemahaman teori.Acara ini ditargetkan kepada para siswa sekolah menengah, Mahasiswa, maupun Umum yang tertarik dengan IT, baik yang masih pemula, ataupun intermediate.Dengan target 1.000 pendaftar dan 95% peserta aktif tanpa bolos, OmahTI Academy 2026 diharapkan bisa menjadi salah satu program bootcamp yang paling berkualitas yang membuat para peserta puas dengan hasilnya, serta dapat menjual nama Ilmu Komputer UGM kepada lingkup nasional yang lebih luas.",
         view: "null",
@@ -162,8 +166,8 @@ export default function Work() {
 
                                 <div className="flex flex-col">
                                     <div className="flex flex-wrap  gap-3">
-                                        <div className="bg-slate-700 rounded-lg w-10 h-10">
-                                            <img src="/chip.svg" className="w-full h-full invert" />
+                                    <div className="bg-slate-700 rounded-lg w-10 h-10 p-1">
+                                        <Cpu className="w-full h-full invert" />
                                         </div>
 
                                         <h2 className="text-xl sm:text-2xl text-slate-900 dark:text-gray-200 font-bold my-2">
@@ -183,11 +187,11 @@ export default function Work() {
                                 <div className="flex flex-col">
                                     <div className="flex flex-wrap gap-3">
                                         <div className="bg-slate-700 rounded-lg w-10 h-10 p-1">
-                                            <img src="/calender.svg" className="w-full h-full invert" />
+                                        <Calendar className="w-full h-full invert" />
                                         </div>
 
                                         <h2 className="text-xl sm:text-2xl text-slate-900 dark:text-gray-200 font-bold my-2">
-                                            Project Info:
+                                        Information:
                                         </h2>
                                     </div>
 
@@ -231,11 +235,10 @@ export default function Work() {
 
                             </div>
 
-                            {/* INFO */}
                             <div className="flex flex-col">
                                 <div className="flex flex-wrap mt-8 gap-3">
                                     <div className="bg-slate-700 rounded-lg w-10 h-10 p-1">
-                                        <img src="/info.svg" className="w-full h-full invert" />
+                                    <Info className="w-full h-full invert" />
                                     </div>
 
                                     <h2 className="text-xl sm:text-2xl text-slate-900 dark:text-gray-200 font-semibold my-2">

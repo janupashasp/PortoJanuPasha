@@ -9,12 +9,12 @@ export default function AboutMe() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-[40px] items-center justify-center">
                 <div className="flex flex-col gap-6 items-center lg:items-start">
                         <div className="relative w-full max-w-[280px] sm:max-w-[320px] md:max-w-[400px] aspect-square duration-700 ease-in-out [transform-style:preserve-3d] hover:[transform:rotateY(180deg)] mx-auto lg:mx-0">                            <img
-                                src="/profile2.png"
+                            src="/profile2.webp"
                                 alt="profile"
                                 className="absolute w-full h-full object-cover rounded-lg object-[50%_0.1%] [backface-visibility:hidden]"
                             />
                             <img
-                                src="/profile3.png"
+                                src="/profile3.webp"
                                 alt="profile back"
                                 className="absolute w-full h-full object-cover rounded-lg [transform:rotateY(180deg)] [backface-visibility:hidden]"
                             />
@@ -48,7 +48,7 @@ export default function AboutMe() {
                             </div>
 
                             <div className="hover:-translate-y-1 p-4 rounded-xl bg-white dark:bg-zinc-800 shadow-sm hover:shadow-md transition">
-                                <p className="font-semibold"> 👨‍👩‍👧‍👦 Interpersonal </p>
+                                    <p className="font-semibold"> Interpersonal </p>
                                 <p className="text-sm text-gray-500 dark:text-gray-400">Clear & effective teamwork</p>
                             </div>
 
@@ -62,7 +62,7 @@ export default function AboutMe() {
                         <div className="flex flex-col gap-3 text-sm">
                             <div className="flex flex-row gap-2 bg-white dark:bg-zinc-800 p-2 rounded-lg shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
                                 <img
-                                    src="/ugm.png"
+                                        src="/ugm.webp"
                                     className="w-10 h-10"
                                 />
                                 <div className="flex flex-col border-l-4 border-orange-400 pl-3">
@@ -77,7 +77,7 @@ export default function AboutMe() {
 
                             <div className="flex flex-row gap-2 bg-white dark:bg-zinc-800 p-2 rounded-lg shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
                                 <img
-                                    src="/padma.png"
+                                        src="/padma.webp"
                                     className="w-10 h-10"
                                 />
                                 <div className="flex flex-col border-l-4 border-orange-400 pl-3">

@@ -27,8 +27,8 @@ const experience: Experience[] = [
             "Mendukung pelaksanaan program bonding untuk meningkatkan kekompakan dan kolaborasi anggota.",
             "Berkontribusi dalam pelaksanaan rapat kerja tahunan organisasi.",
         ],
-        image: "/hipmi1.jpeg",
-        gallery: ["/HIPMI/i1.jpg", "/HIPMI/i2.jpg", "/HIPMI/i3.jpg", "/HIPMI/i4.jpg", "/HIPMI/i5.jpg", "/HIPMI/i6.jpg"],
+        image: "/hipmi1.webp",
+        gallery: ["/HIPMI/i1.webp", "/HIPMI/i2.webp", "/HIPMI/i3.webp", "/HIPMI/i4.webp", "/HIPMI/i5.webp", "/HIPMI/i6.webp"],
     },
     {
         id: 2,
@@ -42,8 +42,8 @@ const experience: Experience[] = [
             "Berkolaborasi dalam tim untuk mengembangkan tampilan website yang responsif dan user-friendly.",
             "Mencatat progres proyek secara terstruktur sebagai bentuk kontrol dan evaluasi kinerja tim.",
         ],
-        image: "/omahTI.png",
-        gallery: ["/OMAHTI/o1.jpg", "/OMAHTI/o2.jpg", "/OMAHTI/o3.jpg", "/OMAHTI/o4.jpg", "/OMAHTI/o5.jpg", "/OMAHTI/o6.jpg"]
+        image: "/omahTI.webp",
+        gallery: ["/OMAHTI/o1.webp", "/OMAHTI/o2.webp", "/OMAHTI/o3.webp", "/OMAHTI/o4.webp", "/OMAHTI/o5.webp", "/OMAHTI/o6.webp"],
 
     },
     {
@@ -57,8 +57,8 @@ const experience: Experience[] = [
             "Berperan dalam pelaksanaan penerimaan studi banding dengan menyambut delegasi dan memfasilitasi rangkaian kegiatan.",
             "Menjalin relasi dengan mitra dan pihak eksternal guna mendukung keberhasilan program kerja.",
         ],
-        image: "/bemmipa.png",
-        gallery: ["/HUMAS/h1.jpg", "/HUMAS/h2.jpg", "/HUMAS/h3.jpg", "/HUMAS/h4.jpg", "/HUMAS/h5.JPG", "/HUMAS/h6.jpg"]
+        image: "/bemmipa.webp",
+        gallery: ["/HUMAS/h1.webp", "/HUMAS/h2.webp", "/HUMAS/h3.webp", "/HUMAS/h4.webp", "/HUMAS/h5.webp", "/HUMAS/h6.webp"]
 
     },
     {
@@ -72,8 +72,8 @@ const experience: Experience[] = [
             "Mengelola alur waktu kegiatan sebagai timekeeper guna memastikan seluruh rangkaian berjalan sesuai rundown.",
             "Memastikan kesiapan teknis dan operasional selama acara berlangsung.",
         ],
-        image: "/malpres.png",
-        gallery: ["MALPRES/p1.jpg", "/MALPRES/p2.jpg", "/MALPRES/p3.heic", "/MALPRES/p4.HEIC", "/MALPRES/p5.HEIC", "/MALPRES/p6.jpg", "/MALPRES/p7.jpg", "/MALPRES/p8.jpg", "/MALPRES/p9.jpg", "/MALPRES/p10.jpg"],
+        image: "/malpres.webp",
+        gallery: ["MALPRES/p1.webp", "/MALPRES/p2.webp", "/MALPRES/p3.webp", "/MALPRES/p4.webp", "/MALPRES/p5.webp", "/MALPRES/p6.webp", "/MALPRES/p7.webp", "/MALPRES/p8.webp", "/MALPRES/p9.webp", "/MALPRES/p10.webp"],
 
     },
 ];

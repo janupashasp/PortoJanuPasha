@@ -16,7 +16,7 @@ export default function Contact() {
                 <div className="w-full flex justify-start items-center gap-2.5">
                     <div className="w-11 h-11 rounded-full overflow-hidden">
                         <img
-                            src="/avatar.png"
+                            src="/avatar.webp"
                             className="w-full h-full object-cover"
                         />
                     </div>
@@ -34,19 +34,19 @@ export default function Contact() {
                         href="https://github.com/janupashasp"
                         className="p-[6px] rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 transition w-[36px] h-[36px] flex items-center justify-center"
                     >
-                        <img src="/github.png" alt="github" className=" w-[24px] h-[24] invert" />
+                        <img src="/github.webp" alt="github" className=" w-[24px] h-[24] invert" />
                     </a>
                     <a
                         href="https://instagram.com/janupashasp"
                         className="p-[6px] rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 transition w-[36px] h-[36px] flex items-center justify-center"
                     >
-                        <img src="/instagram.png" alt="instagram" className="w-[24px] h-[24px] invert" />
+                        <img src="/instagram.webp" alt="instagram" className="w-[24px] h-[24px] invert" />
                     </a>
                     <a
                         href="https://wa.me/628112852007"
                         className="p-[6px] rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 transition w-[36px] h-[36px] flex items-center justify-center"
                     >
-                        <img src="/wa.png" alt="whatsapp" className="w-[24px] h-[24] invert" />
+                        <img src="/wa.webp" alt="whatsapp" className="w-[24px] h-[24] invert" />
                     </a>
                 </div>
             </div>

@@ -10,7 +10,7 @@ export default function Hero() {
 
                     <div className="absolute hidden md:block z-10 bottom-0 right-10">
                     <img
-                        src="/ProfileAdobe.png"
+                            src="/ProfileAdobe.webp"
                         alt="profile"
                         className=" w-[500px] h-[500px] gradien object-cover  object-[50%_0.1%] "
                     />
@@ -28,15 +28,15 @@ export default function Hero() {
                     </div>
                     <div className="flex flex-col gap-0">
                         <div className="gap-2 flex items-center">
-                            <img src="/location.png" alt="maps" className="w-6 h-6 dark:invert" />
+                                <img src="/location.webp" alt="maps" className="w-6 h-6 dark:invert" />
                             <p className="text-sm text-gray-900 dark:text-gray-300">Based in Yogyakarta, Indonesia</p>
                         </div>
                         <div className="flex items-center gap-2">
-                            <img src="/phone1.png" alt="maps" className="w-6 h-6 dark:invert" />
+                                <img src="/phone1.webp" alt="maps" className="w-6 h-6 dark:invert" />
                             <p className="text-sm text-gray-900 dark:text-gray-300">Available for work</p>
                         </div>
                         <div className="flex items-center gap-2">
-                            <img src="/mail.png" alt="maps" className="w-6 h-6 dark:invert" />
+                                <img src="/mail.webp" alt="maps" className="w-6 h-6 dark:invert" />
                             <p className="text-sm text-blue-900 dark:text-slate-200 break-all">
                                 janupashashandyputra@gmail.com
                             </p>
@@ -47,19 +47,19 @@ export default function Hero() {
                             href="https://github.com/janupashasp"
                             className="p-[6px] rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 transition w-[36px] h-[36px] flex items-center justify-center"
                         >
-                            <img src="/github.png" alt="github" className=" w-[24px] h-[24px] dark:invert" />
+                                <img src="/github.webp" alt="github" className=" w-[24px] h-[24px] dark:invert" />
                         </a>
                         <a
                             href="https://instagram.com/janupashasp"
                             className="p-[6px] rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 transition w-[36px] h-[36px] flex items-center justify-center"
                         >
-                            <img src="/instagram.png" alt="instagram" className="w-[24px] h-[24px] dark:invert" />
+                                <img src="/instagram.webp" alt="instagram" className="w-[24px] h-[24px] dark:invert" />
                         </a>
                         <a
                             href="https://wa.me/628112852007"
                             className="p-[6px] rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 transition w-[36px] h-[36px] flex items-center justify-center"
                         >
-                            <img src="/wa.png" alt="whatsapp" className="w-[24px] h-[24px] dark:invert" />
+                                <img src="/wa.webp" alt="whatsapp" className="w-[24px] h-[24px] dark:invert" />
                         </a>
                     </div>
                 </div>
