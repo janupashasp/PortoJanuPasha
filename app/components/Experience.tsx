@@ -1,6 +1,7 @@
 "use client";
 import { BlurFade } from "@/components/ui/blur-fade";
 import { TypingAnimation } from "@/components/ui/typing-animation";
+import { h1 } from "motion/react-client";
 import { useState } from "react";
 
 type Experience = {
@@ -28,7 +29,7 @@ const experience: Experience[] = [
             "Berkontribusi dalam pelaksanaan rapat kerja tahunan organisasi.",
         ],
         image: "/hipmi1.webp",
-        gallery: ["/hipmi/i1.webp", "/hipmi/i2.webp", "/hipmi/i3.webp", "/hipmi/i4.webp", "/hipmi/i5.webp", "/hipmi/i6.webp"],
+        gallery: ["/i1.webp", "/i2.webp", "/i3.webp", "/i4.webp", "/i5.webp", "/i6.webp"],
     },
     {
         id: 2,
@@ -43,7 +44,7 @@ const experience: Experience[] = [
             "Mencatat progres proyek secara terstruktur sebagai bentuk kontrol dan evaluasi kinerja tim.",
         ],
         image: "/omahTI.webp",
-        gallery: ["/omahti/o1.webp", "/omahti/o2.webp", "/omahti/o3.webp", "/omahti/o4.webp", "/omahti/o5.webp", "/omahti/o6.webp"],
+        gallery: ["/o1.webp", "/o2.webp", "/o3.webp", "/o4.webp", "/o5.webp", "/o6.webp"],
 
     },
     {
@@ -58,7 +59,7 @@ const experience: Experience[] = [
             "Menjalin relasi dengan mitra dan pihak eksternal guna mendukung keberhasilan program kerja.",
         ],
         image: "/bemmipa.webp",
-        gallery: ["/humas/h1.webp", "/humas/h2.webp", "/humas/h3.webp", "/humas/h4.webp", "/humas/h5.webp", "/humas/h6.webp"]
+        gallery: ["/h2.webp", "/h3.webp", "/h4.webp", "/h5.webp", "/h6.webp", "/h1.webp"],
 
     },
     {
@@ -73,7 +74,7 @@ const experience: Experience[] = [
             "Memastikan kesiapan teknis dan operasional selama acara berlangsung.",
         ],
         image: "/malpres.webp",
-        gallery: ["malpres/p1.webp", "/malpres/p2.webp", "/malpres/p3.webp", "/malpres/p4.webp", "/malpres/p5.webp", "/malpres/p6.webp", "/malpres/p7.webp", "/malpres/p8.webp", "/malpres/p9.webp", "/malpres/p10.webp"],
+        gallery: ["/p1.webp", "/p2.webp", "/p3.webp", "/p4.webp", "/p5.webp", "/p6.webp", "/p7.webp", "/p8.webp", "/p9.webp", "/p10.webp"],
 
     },
 ];
@@ -214,11 +215,11 @@ export default function Exper() {
                             <div className=" max-h-[60vh] overflow-y-auto">
                                 <div className="columns-1 md:columns-2 gap-1 mb-4">
                                     {selectedGallery.map((src, i) => (
-                                        <div key={i}>
+                                        <div key={i} className="mb-3 break-inside-avoid">
                                             <img
                                                 src={src}
                                                 alt="highlight"
-                                                className="mx-auto mb-1"
+                                                className="w-full h-auto rounded-lg object-cover"
                                             />
                                         </div>
                                     ))}
