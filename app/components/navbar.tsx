@@ -29,11 +29,14 @@ export default function Navbar() {
                     <a href="#skills" className="text-gray-600 dark:text-gray-300 hover:text-gray-100 hover:bg-blue-900/80 dark:hover:text-gray-900 dark:hover:bg-orange-500 transition-all duration-300 rounded-lg p-1 hidden md:flex ">
                         Skills
                     </a>
-                    <a href="#achievement" className="text-gray-600 dark:text-gray-300 hover:text-gray-100 hover:bg-blue-900/80 dark:hover:text-gray-900 dark:hover:bg-orange-500 transition-all duration-300 rounded-lg p-1 hidden md:flex ">
-                        Achievements
+                    <a href="#experience" className="text-gray-600 dark:text-gray-300 hover:text-gray-100 hover:bg-blue-900/80 dark:hover:text-gray-900 dark:hover:bg-orange-500 transition-all duration-300 rounded-lg p-1 hidden md:flex ">
+                        Experience
                     </a>
                     <a href="#work" className="text-gray-600 dark:text-gray-300 hover:text-gray-100 hover:bg-blue-900/80 dark:hover:text-gray-900 dark:hover:bg-orange-500 transition-all duration-300 rounded-lg p-1 hidden md:flex ">
                         Work
+                    </a>
+                    <a href="#achievement" className="text-gray-600 dark:text-gray-300 hover:text-gray-100 hover:bg-blue-900/80 dark:hover:text-gray-900 dark:hover:bg-orange-500 transition-all duration-300 rounded-lg p-1 hidden md:flex ">
+                        Achievements
                     </a>
                     <a href="#contact" className="text-gray-600 dark:text-gray-300 hover:text-gray-100 hover:bg-blue-900/80 dark:hover:text-gray-900 dark:hover:bg-orange-500 transition-all duration-300 rounded-lg p-1 hidden md:flex ">
                         Contact
@@ -86,20 +89,17 @@ export default function Navbar() {
                         <a href="#aboutme" className="text-gray-600 dark:text-gray-300 hover:text-gray-100 hover:bg-blue-900/80 dark:hover:text-gray-900 dark:hover:bg-orange-500 transition-all duration-300 rounded-lg p-1 ">
                             About Me
                         </a>
-                        <a href="#projects" className="text-gray-600 dark:text-gray-300 hover:text-gray-100 hover:bg-blue-900/80 dark:hover:text-gray-900 dark:hover:bg-orange-500 transition-all duration-300 rounded-lg p-1 ">
-                            Projects
-                        </a>
-                        <a href="#contact" className="text-gray-600 dark:text-gray-300 hover:text-gray-100 hover:bg-blue-900/80 dark:hover:text-gray-900 dark:hover:bg-orange-500 transition-all duration-300 rounded-lg p-1 ">
-                            Contact
-                        </a>
                         <a href="#skills" className="text-gray-600 dark:text-gray-300 hover:text-gray-100 hover:bg-blue-900/80 dark:hover:text-gray-900 dark:hover:bg-orange-500 transition-all duration-300 rounded-lg p-1 ">
                             Skills
                         </a>
-                        <a href="#achievement" className="text-gray-600 dark:text-gray-300 hover:text-gray-100 hover:bg-blue-900/80 dark:hover:text-gray-900 dark:hover:bg-orange-500 transition-all duration-300 rounded-lg p-1 ">
-                            Achievements
+                        <a href="#experience" className="text-gray-600 dark:text-gray-300 hover:text-gray-100 hover:bg-blue-900/80 dark:hover:text-gray-900 dark:hover:bg-orange-500 transition-all duration-300 rounded-lg p-1 ">
+                            Experience
                         </a>
                         <a href="#work" className="text-gray-600 dark:text-gray-300 hover:text-gray-100 hover:bg-blue-900/80 dark:hover:text-gray-900 dark:hover:bg-orange-500 transition-all duration-300 rounded-lg p-1 ">
                             Work
+                        </a>
+                        <a href="#achievement" className="text-gray-600 dark:text-gray-300 hover:text-gray-100 hover:bg-blue-900/80 dark:hover:text-gray-900 dark:hover:bg-orange-500 transition-all duration-300 rounded-lg p-1 ">
+                            Achievements
                         </a>
                         <a href="#contact" className="text-gray-600 dark:text-gray-300 hover:text-gray-100 hover:bg-blue-900/80 dark:hover:text-gray-900 dark:hover:bg-orange-500 transition-all duration-300 rounded-lg p-1 ">
                             Contact
