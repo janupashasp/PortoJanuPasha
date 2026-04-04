@@ -28,7 +28,7 @@ const experience: Experience[] = [
             "Berkontribusi dalam pelaksanaan rapat kerja tahunan organisasi.",
         ],
         image: "/hipmi1.webp",
-        gallery: ["/HIPMI/i1.webp", "/HIPMI/i2.webp", "/HIPMI/i3.webp", "/HIPMI/i4.webp", "/HIPMI/i5.webp", "/HIPMI/i6.webp"],
+        gallery: ["/hipmi/i1.webp", "/hipmi/i2.webp", "/hipmi/i3.webp", "/hipmi/i4.webp", "/hipmi/i5.webp", "/hipmi/i6.webp"],
     },
     {
         id: 2,
@@ -43,7 +43,7 @@ const experience: Experience[] = [
             "Mencatat progres proyek secara terstruktur sebagai bentuk kontrol dan evaluasi kinerja tim.",
         ],
         image: "/omahTI.webp",
-        gallery: ["/OMAHTI/o1.webp", "/OMAHTI/o2.webp", "/OMAHTI/o3.webp", "/OMAHTI/o4.webp", "/OMAHTI/o5.webp", "/OMAHTI/o6.webp"],
+        gallery: ["/omahti/o1.webp", "/omahti/o2.webp", "/omahti/o3.webp", "/omahti/o4.webp", "/omahti/o5.webp", "/omahti/o6.webp"],
 
     },
     {
@@ -58,7 +58,7 @@ const experience: Experience[] = [
             "Menjalin relasi dengan mitra dan pihak eksternal guna mendukung keberhasilan program kerja.",
         ],
         image: "/bemmipa.webp",
-        gallery: ["/HUMAS/h1.webp", "/HUMAS/h2.webp", "/HUMAS/h3.webp", "/HUMAS/h4.webp", "/HUMAS/h5.webp", "/HUMAS/h6.webp"]
+        gallery: ["/humas/h1.webp", "/humas/h2.webp", "/humas/h3.webp", "/humas/h4.webp", "/humas/h5.webp", "/humas/h6.webp"]
 
     },
     {
@@ -73,7 +73,7 @@ const experience: Experience[] = [
             "Memastikan kesiapan teknis dan operasional selama acara berlangsung.",
         ],
         image: "/malpres.webp",
-        gallery: ["MALPRES/p1.webp", "/MALPRES/p2.webp", "/MALPRES/p3.webp", "/MALPRES/p4.webp", "/MALPRES/p5.webp", "/MALPRES/p6.webp", "/MALPRES/p7.webp", "/MALPRES/p8.webp", "/MALPRES/p9.webp", "/MALPRES/p10.webp"],
+        gallery: ["malpres/p1.webp", "/malpres/p2.webp", "/malpres/p3.webp", "/malpres/p4.webp", "/malpres/p5.webp", "/malpres/p6.webp", "/malpres/p7.webp", "/malpres/p8.webp", "/malpres/p9.webp", "/malpres/p10.webp"],
 
     },
 ];
