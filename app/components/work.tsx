@@ -62,6 +62,20 @@ const projects: Project[] = [
         view: "null",
 
     },
+    {
+        id: 4,
+        title: "E-commerce Website",
+        description: "website e-commerce yang dibuat untuk memenuhi kebutuhan suatu bisnis online, dengan fitur-fitur seperti katalog produk, keranjang belanja, dan sistem pembayaran yang aman.",
+        year: "2026",
+        category: "Software",
+        role: "Frontend Developer",
+        status: "Currently Working",
+        image: "comingsoon.webp",
+        tech: ["tsx", "next.js", "tailwind"],
+        info: "Membuat bagian front-end Theme Season yang mencakup katalog produk dan ilustrasi produk.  Website ini dirancang untuk memberikan pengalaman berbelanja yang mudah dan menyenangkan bagi pengguna, serta membantu pemilik bisnis dalam mengelola produk dan transaksi secara efisien.",
+        view: "null",
+
+    },
 ];
 
 export default function Work() {
